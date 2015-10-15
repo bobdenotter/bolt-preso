@@ -20,6 +20,7 @@ slides:
         title:
             type: text
             class: large
+            group: Inhoud
         slug:
             type: slug
             uses: title
@@ -47,7 +48,7 @@ slides:
         notes:
             type: html
             height: 300px
-    taxonomy: [ chapters ]            
+    taxonomy: [ chapters ]
     record_template: entry.twig
     listing_template: listing.twig
     listing_records: 100

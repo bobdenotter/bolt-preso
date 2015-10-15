@@ -19,7 +19,7 @@ namespace Symfony\Component\Validator;
  * @api
  *
  * @deprecated Deprecated since version 2.5, to be removed in Symfony 3.0.
- *             Use {@link Validator\ValidatorInterface} instead.
+ *             Use {@link \Symfony\Component\Validator\Validator\ValidatorInterface} instead.
  */
 interface ValidatorInterface
 {
@@ -68,7 +68,7 @@ interface ValidatorInterface
      * The accepted values depend on the {@link MetadataFactoryInterface}
      * implementation.
      *
-     * @param string     $containingValue The value containing the property.
+     * @param mixed      $containingValue The value containing the property.
      * @param string     $property        The name of the property to validate
      * @param string     $value           The value to validate against the
      *                                    constraints of the property.
